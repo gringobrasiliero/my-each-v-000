@@ -5,5 +5,5 @@ while i < array.length
   i = i + 1
   to_ary << array[i]
 end
-"#{array.length}"
+to_ary
 end
