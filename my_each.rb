@@ -1,9 +1,9 @@
 def my_each(array)
 i = 0
-to_ary = []
+
 while i < array.length
+yield(array[i])
   i = i + 1
-  to_ary << "#{array[i]}"
 end
-to_ary
+return array
 end
